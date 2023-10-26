@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200 & display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.jeff-presentation {
+    height: 100vh;
+}
+
+.jeff-presentation .row .txt-presentation {
+    flex-direction: column;
+    padding: 30px 70px;
+}
+
+.jeff-presentation .row .txt-presentation .links a {
+    color: black;
+}
