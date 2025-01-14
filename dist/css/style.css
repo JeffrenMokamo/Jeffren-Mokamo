@@ -13,7 +13,10 @@
 :root{
     --colorWhite: #fff;
     --titlePolice: 'sora', sans-serif;
-    --sizeTitle: 100;
+    --sizeTitle: 150;
+    --secondColor: #fff442;
+    --couleurSecondaire: gray;
+    --couleurSuple: rgba(217, 217, 217, .4);
 }
 
 /* Scroll-bar */
@@ -23,12 +26,12 @@
 }
 
 ::-webkit-scrollbar-track{
-    background-color: var(--couleurSecondaire);
+    background-color: var(--couleurSuple);
 }
 
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: var(--couleurSuple);
+    background-color: var(--secondColor);
 }
 
 /* Body */
@@ -37,4 +40,41 @@ body {
     background-color: #000;
     color: var(--colorWhite);
     font-size: 1rem;
+}
+
+/* Section accueil */
+
+.accueil{
+    padding: 30px;
+    margin-bottom: 90px;
+}
+
+:where(.accueil .pres) h1, h5{
+    font-weight: var(--sizeTitle);
+    font-family: var(--titlePolice);
+}
+
+.accueil .pres h1{
+    font-size: 3.8rem;
+}
+
+.accueil .pres h1 span{
+    color: var(--secondColor);
+}
+
+.accueil .pres .rs a{
+    font-size: 2rem;
+    color: var(--colorWhite);
+}
+
+/* Section outils */
+
+.outils{
+    padding: 30px;
+}
+
+.outils h1{
+    font-weight: var(--sizeTitle);
+    font-family: var(--titlePolice);
+    font-size: 3.8rem;
 }
