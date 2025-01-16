@@ -78,3 +78,14 @@ body {
     font-family: var(--titlePolice);
     font-size: 3.5rem;
 }
+
+.about .outils h2{
+    font-weight: var(--sizeTitle);
+    font-family: var(--titlePolice);
+}
+
+.about .outils .cont-logos-plat{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
