@@ -67,14 +67,14 @@ body {
     color: var(--colorWhite);
 }
 
-/* Section outils */
+/* Section about */
 
-.outils{
+.about{
     padding: 30px;
 }
 
-.outils h1{
+.about h1{
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
-    font-size: 3.8rem;
+    font-size: 3.5rem;
 }
