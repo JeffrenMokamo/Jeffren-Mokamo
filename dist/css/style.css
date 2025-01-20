@@ -89,3 +89,30 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
+/* Projects */
+
+.projects h1{
+
+    font-weight: var(--sizeTitle);
+    font-family: var(--titlePolice);
+    font-size: 3.5rem;
+
+}
+
+.projects .links a{
+    border: 1px solid var(--colorWhite);
+    border-radius: 5px;
+    width: 250px;
+    overflow: hidden;
+}
+
+/* Cntacts */
+
+.contact h1{
+
+    font-weight: var(--sizeTitle);
+    font-family: var(--titlePolice);
+    font-size: 3.5rem;
+
+}
