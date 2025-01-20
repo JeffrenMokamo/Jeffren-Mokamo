@@ -71,12 +71,21 @@ body {
 
 .about{
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .about h1{
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
     font-size: 3.5rem;
+}
+
+.about .experience{
+
+}
+
+.about .experience .line{
+    border-right: 2px solid white;
 }
 
 .about .outils h2{
@@ -92,12 +101,14 @@ body {
 
 /* Projects */
 
-.projects h1{
+.projects{
+    margin-bottom: 100px;
+}
 
+.projects h1{
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
     font-size: 3.5rem;
-
 }
 
 .projects .links a{
@@ -110,9 +121,11 @@ body {
 /* Cntacts */
 
 .contact h1{
-
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
     font-size: 3.5rem;
+}
 
+.contact .links-contact div a{
+    font-size: 5rem;
 }
