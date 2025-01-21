@@ -37,7 +37,7 @@
 /* Body */
 
 body {
-    background-color: #000;
+    background-color: #03151B;
     color: var(--colorWhite);
     font-size: 1rem;
 }
@@ -45,6 +45,9 @@ body {
 /* Section accueil */
 
 .accueil{
+    background-image: url('../../assets/images/metier-developpeur-web-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
     margin-bottom: 90px;
 }
@@ -70,18 +73,15 @@ body {
 /* Section about */
 
 .about{
-    padding: 30px;
+    padding: 10px;
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.0800);
 }
 
 .about h1{
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
     font-size: 3.5rem;
-}
-
-.about .experience{
-
 }
 
 .about .experience .line{
@@ -119,6 +119,11 @@ body {
 }
 
 /* Cntacts */
+
+.contact{
+    background-color: var(--secondColor);
+    padding: 30px;
+}
 
 .contact h1{
     font-weight: var(--sizeTitle);
