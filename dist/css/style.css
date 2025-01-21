@@ -112,8 +112,7 @@ body {
 }
 
 .projects .links a{
-    border: 1px solid var(--colorWhite);
-    border-radius: 5px;
+    border: 1px solid gray;
     width: 250px;
     overflow: hidden;
 }
