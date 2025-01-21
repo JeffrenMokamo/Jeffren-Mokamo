@@ -14,7 +14,7 @@
     --colorWhite: #fff;
     --titlePolice: 'sora', sans-serif;
     --sizeTitle: 150;
-    --secondColor: yellow;
+    --secondColor: #053C44;
     --couleurSecondaire: gray;
     --couleurSuple: rgba(217, 217, 217, .4);
 }
@@ -37,7 +37,7 @@
 /* Body */
 
 body {
-    background-color: #03151B;
+    background-color: #07161b;
     color: var(--colorWhite);
     font-size: 1rem;
 }
@@ -45,24 +45,21 @@ body {
 /* Section accueil */
 
 .accueil{
-    background-image: url('../../assets/images/metier-developpeur-web-1.jpg');
+    padding: 30px;
+    background-image: url('../../assets/images/img-acc.png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
-    margin-bottom: 90px;
+    min-height: 100vh;
 }
 
 :where(.accueil .pres) h1, h5{
-    font-weight: var(--sizeTitle);
+    font-weight: 300;
     font-family: var(--titlePolice);
 }
 
 .accueil .pres h1{
     font-size: 3.8rem;
-}
-
-.accueil .pres h1 span{
-    color: var(--secondColor);
 }
 
 .accueil .pres .rs a{
@@ -73,9 +70,8 @@ body {
 /* Section about */
 
 .about{
-    padding: 10px;
     margin-bottom: 100px;
-    background-color: rgba(255, 255, 255, 0.0800);
+    padding: 10px;
 }
 
 .about h1{
@@ -88,15 +84,21 @@ body {
     border-right: 2px solid white;
 }
 
-.about .outils h2{
-    font-weight: var(--sizeTitle);
-    font-family: var(--titlePolice);
+/* Outils */
+
+.outils{
+    margin-bottom: 150px;
 }
 
-.about .outils .cont-logos-plat{
-    display: grid;
+.outils h1{
+    font-family: var(--titlePolice);
+    font-weight: var(--sizeTitle);
+    font-size: 3.5rem;
+
+}
+
+.outils .cont-logos-plat{
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
 }
 
 /* Projects */
@@ -120,7 +122,7 @@ body {
 /* Cntacts */
 
 .contact{
-    background-color: rgba(255, 255, 255, 0.0800);
+    background-image: url('../../assets/images/3-facons-d-attirer-les-developpeurs.jpg');
     padding: 30px;
 }
 
