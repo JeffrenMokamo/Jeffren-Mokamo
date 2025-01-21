@@ -14,7 +14,7 @@
     --colorWhite: #fff;
     --titlePolice: 'sora', sans-serif;
     --sizeTitle: 150;
-    --secondColor: #fff442;
+    --secondColor: yellow;
     --couleurSecondaire: gray;
     --couleurSuple: rgba(217, 217, 217, .4);
 }
@@ -121,7 +121,7 @@ body {
 /* Cntacts */
 
 .contact{
-    background-color: var(--secondColor);
+    background-color: rgba(255, 255, 255, 0.0800);
     padding: 30px;
 }
 
@@ -131,6 +131,14 @@ body {
     font-size: 3.5rem;
 }
 
+.contact .line{
+    border-right: 1px solid white;
+}
+
 .contact .links-contact div a{
+    font-size: .550rem;
+}
+
+.contact .links-contact div a i{
     font-size: 5rem;
 }
