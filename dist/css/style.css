@@ -198,10 +198,6 @@ body {
 
 @media (max-width: 820px){
 
-    body{
-        background-color: red;
-    }
-
     .projects .links a{
         width: 220px;
     }
