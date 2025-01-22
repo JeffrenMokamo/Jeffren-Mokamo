@@ -129,7 +129,7 @@ body {
 .contact h1{
     font-weight: var(--sizeTitle);
     font-family: var(--titlePolice);
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .contact .line{
